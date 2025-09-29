@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Products — Vitsin</title>
+<link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<div class="container nav">
+<div class="logo"><div class="mark">V</div><div><div style="font-weight:700">Vitsin / Vitsin</div><div style="font-size:13px;color:var(--muted)">Products</div></div></div>
+<nav><ul><li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li><li><a href="about.html">About</a></li><li><a href="cart.html">Cart</a></li></ul></nav>
+<a class="btn" href="cart.html">View Cart</a>
+</div>
+</header>
+<main class="container" style="padding-top:20px">
+<h1>Our Products</h1>
+<div style="display:flex;gap:12px;align-items:center;margin-top:12px;flex-wrap:wrap">
+<input id="search-input" placeholder="Search products..." style="padding:10px;border-radius:8px;border:1px solid #e6eef8;min-width:220px"/>
+<select id="cat-filter" style="padding:10px;border-radius:8px;border:1px solid #e6eef8">
+<option value="all">All categories</option>
+<option value="fortified">Fortified</option>
+<option value="veterinary">Veterinary</option>
+<option value="dehydrated">Dehydrated</option>
+<option value="honey">Honey</option>
+</select>
+<button class="btn" id="clear-filters" style="background:#475569">Clear</button>
+</div>
+<p class="small">Browse categories and add items to your cart. This is a demo frontend; replace images &amp; copy as needed.</p>
+<section id="categories" style="margin-top:18px">
+<h2>All Products</h2>
+<div class="grid" style="margin-top:12px">
+<div class="product" data-category="fortified" data-title="premix for fortified rice kernels">
+<img alt="Premix for Fortified Rice Kernels" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;Premix for Fortified Rice Kernels&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p1.html" style="text-decoration:none;color:inherit"><strong>Premix for Fortified Rice Kernels</strong></a>
+<div class="small" style="margin-top:8px">Category: Fortified</div>
+<div class="price">₹ 1200.00</div>
+<button class="add" data-id="p1" data-price="1200" data-title="Premix for Fortified Rice Kernels">Add to cart</button>
+</div>
+</div>
+<div class="product" data-category="fortified" data-title="premix for wheat flour">
+<img alt="Premix for Wheat Flour" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;Premix for Wheat Flour&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p2.html" style="text-decoration:none;color:inherit"><strong>Premix for Wheat Flour</strong></a>
+<div class="small" style="margin-top:8px">Category: Fortified</div>
+<div class="price">₹ 900.00</div>
+<button class="add" data-id="p2" data-price="900" data-title="Premix for Wheat Flour">Add to cart</button>
+</div>
+</div>
+<div class="product" data-category="fortified" data-title="double fortified salt">
+<img alt="Double Fortified Salt" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;Double Fortified Salt&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p3.html" style="text-decoration:none;color:inherit"><strong>Double Fortified Salt</strong></a>
+<div class="small" style="margin-top:8px">Category: Fortified</div>
+<div class="price">₹ 450.00</div>
+<button class="add" data-id="p3" data-price="450" data-title="Double Fortified Salt">Add to cart</button>
+</div>
+</div>
+<div class="product" data-category="veterinary" data-title="vitmin nutra forte (mineral mix)">
+<img alt="Vitmin Nutra Forte (Mineral Mix)" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;Vitmin Nutra Forte (Mineral Mix)&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p4.html" style="text-decoration:none;color:inherit"><strong>Vitmin Nutra Forte (Mineral Mix)</strong></a>
+<div class="small" style="margin-top:8px">Category: Veterinary</div>
+<div class="price">₹ 850.00</div>
+<button class="add" data-id="p4" data-price="850" data-title="Vitmin Nutra Forte (Mineral Mix)">Add to cart</button>
+</div>
+</div>
+<div class="product" data-category="veterinary" data-title="calvit+ (lactation tonic)">
+<img alt="CALVIT+ (Lactation tonic)" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;CALVIT+ (Lactation tonic)&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p5.html" style="text-decoration:none;color:inherit"><strong>CALVIT+ (Lactation tonic)</strong></a>
+<div class="small" style="margin-top:8px">Category: Veterinary</div>
+<div class="price">₹ 650.00</div>
+<button class="add" data-id="p5" data-price="650" data-title="CALVIT+ (Lactation tonic)">Add to cart</button>
+</div>
+</div>
+<div class="product" data-category="veterinary" data-title="exavit (uterine tonic 500ml)">
+<img alt="EXAVIT (Uterine tonic 500ml)" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;EXAVIT (Uterine tonic 500ml)&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p6.html" style="text-decoration:none;color:inherit"><strong>EXAVIT (Uterine tonic 500ml)</strong></a>
+<div class="small" style="margin-top:8px">Category: Veterinary</div>
+<div class="price">₹ 420.00</div>
+<button class="add" data-id="p6" data-price="420" data-title="EXAVIT (Uterine tonic 500ml)">Add to cart</button>
+</div>
+</div>
+<div class="product" data-category="veterinary" data-title="vitliv (liver tonic 500ml)">
+<img alt="VITLIV (Liver tonic 500ml)" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;VITLIV (Liver tonic 500ml)&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p7.html" style="text-decoration:none;color:inherit"><strong>VITLIV (Liver tonic 500ml)</strong></a>
+<div class="small" style="margin-top:8px">Category: Veterinary</div>
+<div class="price">₹ 480.00</div>
+<button class="add" data-id="p7" data-price="480" data-title="VITLIV (Liver tonic 500ml)">Add to cart</button>
+</div>
+</div>
+<div class="product" data-category="veterinary" data-title="vit-benzole (bolus)">
+<img alt="VIT-BENZOLE (Bolus)" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;VIT-BENZOLE (Bolus)&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p8.html" style="text-decoration:none;color:inherit"><strong>VIT-BENZOLE (Bolus)</strong></a>
+<div class="small" style="margin-top:8px">Category: Veterinary</div>
+<div class="price">₹ 140.00</div>
+<button class="add" data-id="p8" data-price="140" data-title="VIT-BENZOLE (Bolus)">Add to cart</button>
+</div>
+</div>
+<div class="product" data-category="veterinary" data-title="potassium permanganate 10g">
+<img alt="Potassium Permanganate 10g" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;Potassium Permanganate 10g&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p9.html" style="text-decoration:none;color:inherit"><strong>Potassium Permanganate 10g</strong></a>
+<div class="small" style="margin-top:8px">Category: Veterinary</div>
+<div class="price">₹ 60.00</div>
+<button class="add" data-id="p9" data-price="60" data-title="Potassium Permanganate 10g">Add to cart</button>
+</div>
+</div>
+<div class="product" data-category="dehydrated" data-title="lemon peel powder">
+<img alt="Lemon Peel Powder" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;Lemon Peel Powder&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p10.html" style="text-decoration:none;color:inherit"><strong>Lemon Peel Powder</strong></a>
+<div class="small" style="margin-top:8px">Category: Dehydrated</div>
+<div class="price">₹ 320.00</div>
+<button class="add" data-id="p10" data-price="320" data-title="Lemon Peel Powder">Add to cart</button>
+</div>
+</div>
+<div class="product" data-category="dehydrated" data-title="onion powder">
+<img alt="Onion Powder" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;Onion Powder&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p11.html" style="text-decoration:none;color:inherit"><strong>Onion Powder</strong></a>
+<div class="small" style="margin-top:8px">Category: Dehydrated</div>
+<div class="price">₹ 250.00</div>
+<button class="add" data-id="p11" data-price="250" data-title="Onion Powder">Add to cart</button>
+</div>
+</div>
+<div class="product" data-category="dehydrated" data-title="ginger powder">
+<img alt="Ginger Powder" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;Ginger Powder&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p12.html" style="text-decoration:none;color:inherit"><strong>Ginger Powder</strong></a>
+<div class="small" style="margin-top:8px">Category: Dehydrated</div>
+<div class="price">₹ 300.00</div>
+<button class="add" data-id="p12" data-price="300" data-title="Ginger Powder">Add to cart</button>
+</div>
+</div>
+<div class="product" data-category="dehydrated" data-title="tomato powder">
+<img alt="Tomato Powder" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;Tomato Powder&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p13.html" style="text-decoration:none;color:inherit"><strong>Tomato Powder</strong></a>
+<div class="small" style="margin-top:8px">Category: Dehydrated</div>
+<div class="price">₹ 200.00</div>
+<button class="add" data-id="p13" data-price="200" data-title="Tomato Powder">Add to cart</button>
+</div>
+</div>
+<div class="product" data-category="honey" data-title="organic honey raw (500g)">
+<img alt="Organic Honey Raw (500g)" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='400' height='260' viewBox='0 0 400 260'&gt;  &lt;rect width='100%' height='100%' fill='#eef4fb'/&gt;  &lt;text x='50%' y='48%' font-family='Arial, Helvetica, sans-serif' font-size='28' fill='#1565c0' text-anchor='middle'&gt;Organic Honey Raw (500g)&lt;/text&gt;  &lt;text x='50%' y='62%' font-family='Arial, Helvetica, sans-serif' font-size='18' fill='#1565c0' text-anchor='middle'&gt;Placeholder image&lt;/text&gt;&lt;/svg&gt;"/>
+<div class="pinfo">
+<a href="product_p14.html" style="text-decoration:none;color:inherit"><strong>Organic Honey Raw (500g)</strong></a>
+<div class="small" style="margin-top:8px">Category: Honey</div>
+<div class="price">₹ 450.00</div>
+<button class="add" data-id="p14" data-price="450" data-title="Organic Honey Raw (500g)">Add to cart</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="container"><div style="display:flex;justify-content:space-between;align-items:center"><div class="small">© Vitsin / Vitsin</div><div class="small">Contact: singhforti@gmail.com</div></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>

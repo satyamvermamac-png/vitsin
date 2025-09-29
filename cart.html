@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cart — Vitsin</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo"><div class="mark">V</div><div><div style="font-weight:700">Vitsin / Vitsin</div><div style="font-size:13px;color:var(--muted)">Cart</div></div></div>
+      <nav><ul><li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li><li><a href="about.html">About</a></li><li><a href="cart.html">Cart</a></li></ul></nav>
+      <a class="btn" href="products.html">Continue shopping</a>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:20px">
+    <h1>Your Cart</h1>
+    <div class="card">
+      <div id="cart-table"></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:12px">
+        <div class="small"><strong>Total:</strong> <span id="cart-total">₹ 0.00</span></div>
+        <div>
+          <button onclick="Cart.clear(); renderCartTable();" class="btn">Clear cart</button>
+          <button onclick="alert('Checkout placeholder — integrate payment gateway or backend')" class="btn" style="margin-left:8px">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container"><div style="display:flex;justify-content:space-between;align-items:center"><div class="small">© Vitsin</div><div class="small">Contact: singhforti@gmail.com</div></div></footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

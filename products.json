@@ -1,0 +1,100 @@
+[
+  {
+    "id": "p1",
+    "title": "Premix for Fortified Rice Kernels",
+    "category": "fortified",
+    "price": 1200,
+    "description": "Placeholder description. Replace with real product details."
+  },
+  {
+    "id": "p2",
+    "title": "Premix for Wheat Flour",
+    "category": "fortified",
+    "price": 900,
+    "description": "Placeholder description. Replace with real product details."
+  },
+  {
+    "id": "p3",
+    "title": "Double Fortified Salt",
+    "category": "fortified",
+    "price": 450,
+    "description": "Placeholder description. Replace with real product details."
+  },
+  {
+    "id": "p4",
+    "title": "Vitmin Nutra Forte (Mineral Mix)",
+    "category": "veterinary",
+    "price": 850,
+    "description": "Placeholder description. Replace with real product details."
+  },
+  {
+    "id": "p5",
+    "title": "CALVIT+ (Lactation tonic)",
+    "category": "veterinary",
+    "price": 650,
+    "description": "Placeholder description. Replace with real product details."
+  },
+  {
+    "id": "p6",
+    "title": "EXAVIT (Uterine tonic 500ml)",
+    "category": "veterinary",
+    "price": 420,
+    "description": "Placeholder description. Replace with real product details."
+  },
+  {
+    "id": "p7",
+    "title": "VITLIV (Liver tonic 500ml)",
+    "category": "veterinary",
+    "price": 480,
+    "description": "Placeholder description. Replace with real product details."
+  },
+  {
+    "id": "p8",
+    "title": "VIT-BENZOLE (Bolus)",
+    "category": "veterinary",
+    "price": 140,
+    "description": "Placeholder description. Replace with real product details."
+  },
+  {
+    "id": "p9",
+    "title": "Potassium Permanganate 10g",
+    "category": "veterinary",
+    "price": 60,
+    "description": "Placeholder description. Replace with real product details."
+  },
+  {
+    "id": "p10",
+    "title": "Lemon Peel Powder",
+    "category": "dehydrated",
+    "price": 320,
+    "description": "Placeholder description. Replace with real product details."
+  },
+  {
+    "id": "p11",
+    "title": "Onion Powder",
+    "category": "dehydrated",
+    "price": 250,
+    "description": "Placeholder description. Replace with real product details."
+  },
+  {
+    "id": "p12",
+    "title": "Ginger Powder",
+    "category": "dehydrated",
+    "price": 300,
+    "description": "Placeholder description. Replace with real product details."
+  },
+  {
+    "id": "p13",
+    "title": "Tomato Powder",
+    "category": "dehydrated",
+    "price": 200,
+    "description": "Placeholder description. Replace with real product details."
+  },
+  {
+    "id": "p14",
+    "title": "Organic Honey Raw (500g)",
+    "category": "honey",
+    "price": 450,
+    "description": "Placeholder description. Replace with real product details."
+  }
+]
